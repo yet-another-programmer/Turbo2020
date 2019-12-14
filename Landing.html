@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="CSS/bulma.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css"> -->
+    <link rel="stylesheet" href="CSS/landing.css">
+    <link rel="icon" href="Images/worldwide.png" type="image/icon type"> 
+    <title>Turbo 2020</title>
+</head>
+<body>
+    <nav>
+        <div class="nav" id="nav">
+            <a href="#nav" class="active">Home</a>
+            <a href="#Info">Info</a>
+            <a href="#event">Event</a>
+            <a href="#about">Contact</a>
+            <a href="https://www.facebook.com/rec.auto.turbo/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/turbo__2020/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="javascript:void(0);" class="icon" onclick="expand()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+          
+    </nav>
+    <div class="contain2">
+      <div class="full-bg-img" style="background-image:url('Images/landing.jpg');">
+      </div>
+      <div class="text-block1">
+        <h4>DEPARTMENT OF AUTOMOBILE <br>
+       &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; PRESENTS</h4>
+      </div>      
+      <img src="Images/Turbo_logo.png" alt="Logo" class="logo">
+      <div class="text-block">
+        <h4>NATIONAL LEVEL TECHNICAL SYMPOSIUM</h4>
+      </div>
+      <!-- <button class="btn" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';"> <a href="https://forms.gle/ptyLn37LWzqqTKBz9"> Register now </a></button>  -->
+    </div>
+    <div class="contain">
+      <div class="full-bg-img" style="background-image:url('Images/pic2.jpg');">
+      </div>
+      
+      <div class="text-container" id="Info">
+        <h1>WELCOME TO THE LATEST EDITION OF TURBO</h1><br>
+        <p>
+          The National level Technical Symposium is to take place at Rajalakshmi Engineering College on the 6th 
+          of January from 8am to 4pm. Come learn everything about automotive designs, research, development and trends, 
+          from the industry's top professionals and also even get a chance to prove your worth to them! </p>
+          <h4 style="padding-top: 3.5%;">  06-Jan-2020, 8:00 am – 4:00 pm      </h4>
+          <p id="demo" style="color: white;"> </p>
+        </div>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 6, 2020 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML =days+" days to the event";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+      
+      <button class="butt" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';"> <a href="https://forms.gle/ptyLn37LWzqqTKBz9"> Register now </a></button>   
+    </div>
+
+    
+<div class="row15">
+  <div class="column15">
+    <div class="card0">
+      <h3>1</h3>
+      <p><center>Extraordinary Symposium </center></p>
+    </div>
+  </div>
+
+  <div class="column15">
+    <div class="card0">
+      <h3>3</h3>
+      <p><center>Thrilling Workshops </center></p>
+    </div>
+  </div>
+  
+  
+  
+  <div class="column15">
+    <div class="card0">
+      <h3>14</h3>
+      <p><center>Exciting Events </center></p>
+    </div>
+  </div>
+  
+  
+  <div class="column15">
+    <div class="card0">
+    <h3>50000</h3>
+      <p><center>Worth Prizes </center></p>
+    </div>
+  </div>
+</div>  
+<div class="column evnt">
+      <h1 id="event">TECHNICAL EVENTS</h1>
+
+</div>
+    
+    <div class="tile is-ancestor events" style="background-color: black;">
+      
+      <div class="tile is-parent">
+            <article class="tile is-child box post">
+              <figure>
+               <a> <img src="Images/Business_Plan.jpg" alt="Business_plan" class="model" data-target="#business"> </a>
+              </figure>
+            </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+           <a> <img src="Images/CAD.jpg" alt="CAD" class="model" data-target="#CAD"> </a>
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+            <a><img src="Images/Pitstop.jpg" alt="Pitstop" class="model"data-target="#Pitstop"></a>
+          </figure>
+        </article>
+      </div>
+            
+    </div>
+    <div class="tile is-ancestor events" style="background-color: black;">
+      
+      <div class="tile is-parent">
+            <article class="tile is-child box">
+              <figure>
+                <a>   <img src="Images/Present-A-Thon.jpg" alt="Present-A-Thon" class="model" data-target="#present"> </a>
+              </figure>
+            </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+            <a><img src="Images/Sketch .jpg" alt="Sketch" class="model" data-target="#Sketch"></a>
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+            <a><img src="Images/Garage.jpg" alt="Garage" class="model" data-target="#Garage"></a>
+          </figure>
+        </article>
+      </div>
+    </div>
+    <div class="column evnt">
+      <h1> NON TECHNICAL EVENTS</h1>
+
+    </div>
+    <div class="tile is-ancestor events" style="background-color: black;">
+      
+      <div class="tile is-parent">
+            <article class="tile is-child box">
+              <figure>
+                <a><img src="Images/Blood_and_Guts.jpg" alt="Blood_and_Guts" class="model" data-target="#Blood"></a>
+              </figure>
+            </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+            <a><img src="Images/Dirtrix.jpg" alt="Dirtrix" class="model" data-target="#Dirtrix"></a>
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+           <a> <img src="Images/Gully_Cricket.jpg" alt="Gully_Cricket" class="model" data-target="#GullyCricket"></a>
+          </figure>
+        </article>
+      </div>
+      
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+            <a><img src="Images/Speed_ Duels.jpg" alt="Speed_Duel" class="model" data-target="#Speed"></a>
+          </figure>
+        </article>
+      </div>
+
+    </div>
+
+    <div class="tile is-ancestor events" style="background-color: black;">
+      
+      <div class="tile is-parent">
+            <article class="tile is-child box">
+              <figure>
+            <a>    <img src="Images/TEDxtreme.jpg" alt="TEDX" class="model" data-target="#TEDxtreme"> </a>
+              </figure>
+            </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+             <a><img src="Images/Treasure Hunt.jpg" alt="Treasure_Hunt" class="model" data-target="#Treasure"></a>
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+            <a><img src="Images/Turbo Debate.jpg" alt="Debate" class="model" data-target="#Debate"></a>
+          </figure>
+        </article>
+      </div>
+      
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+            <a><img src="Images/Lensography.jpg" alt="Lensography" class="model" data-target="#Lensography"> </a>
+          </figure>
+        </article>
+      </div>
+
+    </div>
+    <div class="column evnt">
+      <h1> Workshops</h1>
+
+    </div>
+    <div class="tile is-ancestor events" style="background-color: black;">
+      
+      <div class="tile is-parent">
+            <article class="tile is-child box">
+              <figure>
+              <a>  <img src="Images/Turbocharger.jpg" alt="TurboCharge" class="model" data-target="#engine"></a>
+              </figure>
+            </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+            <a><img src="Images/Diagon.jpg" alt="Diagonostics" class="model" data-target="#diag"></a>
+          </figure>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <figure>
+            <a><img src="Images/3D Print.jpg" alt="3D Printing" class="model" data-target="#TD"></a>
+          </figure>
+        </article>
+      </div>
+    </div>
+<div class="modal" id="business">
+      <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Business Plan</p>
+      <button class="delete modal-close" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      RULES:<br>
+          1.Each team can have a maximum of 3 members. <br>
+          2.The abstract should have a max of 300 words. <br>
+          3.Business title and team details with College name must be sent along with the abstract. 
+          Last date for submission of abstract - 25th Dec 2019. <br>
+          4.The preliminary selection will be done based on the abstracts. 
+          Only selected candidates will be allowed to attend the final presentation event. 
+          Last date for result intimation - 30th Dec 2019.<br>
+          5.For the presentation kindly bring 3 hard copies of your full business plan and the PPT file in a USB flash drive. 
+          A total time of 8 minutes will be allotted for each team.(5 minutes for presenting and 3 minutes for questions) <br>
+          6.The decision of the judges will be final. <br>
+          Mail ID to submit abstract and business plan turbo2020.auto@gmail.com <br>
+          <strong>Contact:</strong> Vigneshwar: 9884931998
+
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+    </footer>
+  </div>
+</div>
+
+
+<div class="modal" id="Sketch">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">Sketch X</p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  <strong> Round 1 </strong> : An image will be displaced on screen. The best replica makes it to Round 2. The maximum time limit is restricted to 30 minutes. <br>
+  <strong> Round 2 </strong>  : In this round the perspective view of the given car should be drawn. <br>
+  <strong> Round 3 </strong>  : In this round the other half of the car should be completed by the participants. 
+  The decision of the organizers will be final and will not subject to any change. <br>
+  <strong>Contact:</strong> Naresh R: 6369174451  
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+<div class="modal" id="Pitstop">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">Pitstop</p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  1.Only team entries are allowed. <br>
+  2.Each team should have a maximum of 6 and a minimum of 4 participants. <br>
+  3.Each team is restricted to a time slot of 5 minutes. <br>
+  4.Results are based on <br> 
+   a)Time <br>
+   b)Placement <br> 
+   c)Perfection <br>
+  5.Negative points for Extra Time. <br>
+  6.Care should be taken while using the given tools and lab equipment. <br>
+  7.The decision of the judges will be final. <br>
+  <strong>Contact:</strong> Aakash Kumar: 7358168258
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+<div class="modal" id="CAD">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">CAD 360° </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  1.Only team entries are allowed. <br>
+  2.Each team should have a maximum of 2 participants. <br>
+  3.Usage of mobile phones and other gadgets are strictly prohibited. <br>
+  <strong> Round 1 </strong> : Prelims: This will be a written round. The questions shall be in the form of multiple choice,
+   True/False questions and specific answer types.  <br>
+  <strong> Round 2 </strong>  : Reverse Engineer: The top teams will be selected for this Round. 
+  The teams will be given individual mechanical components to design on spot.  <br>
+  <strong> Round 3 </strong>  Conceptual Designer: Animations of a conceptional design with own dimensions are expected to be created by the team. <br>
+  The decision of the judges will be final. <br>
+  <strong>Contact:</strong> Sabarinathan: 7200182549
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+<div class="modal" id="present">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">Present-A-Thon</p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  1.Each team can have a maximum of 3 members. <br>
+  2.The abstract should contain around 300 to 400 words. 
+  Paper title and team details with College name must be sent along with the abstract. <strong> Last date for submission of abstract - 25th Dec 2019. </strong> <br>
+  3.The preliminary selection will be done based on the abstracts. 
+  Only selected candidates will be allowed to attend the final presentation event. <strong> Last date for result intimation - 30th Dec 2019 </strong> <br>
+  4.The full paper must have a maximum of 5 pages in the given IEEE format. (https://bit.ly/2LDNHYH) The paper must be in PDF format readable in any PDF reader. 
+  <strong> Last date for submission - 2nd Jan 2020. </strong> <br>
+  5.For the presentation kindly bring 3 hard copies of your full paper and the PPT file in a USB flash drive. 
+  A total time of 8 minutes will be allotted for each team. (5 minutes for presenting and 3 minutes for questions) <br> 
+  
+      6.The decision of the judges will be final. <br>
+      Mail ID to submit abstract and business plan turbo2020.auto@gmail.com <br>
+      <strong>Contact:</strong> Ashique Salman: 7395995886
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+<div class="modal" id="Garage">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title"> The Garage </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  1.Only team entries are allowed. <br>
+  2.Each team should have a maximum of 2 participants. <br>
+  3.Usage of mobile phones and other gadgets are strictly prohibited. <br>
+
+  <strong> Round 1 </strong> : Prelims: This will be a written round. 20 questions will be given to each team and the maximum time limit is restricted to 30 minutes.  <br>
+  <strong> Round 2 </strong>  :  Finals: The top 15 teams will be selected for the finals.
+   It will have four categories of questions including pictures, videos, buzzer and lightening round.  <br>
+   The decision of the organizers will be final and will not subject to any change.<br>
+   <strong>Contact:</strong> Indra Asokan: 7358496454
+    
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+<div class="modal" id="Debate">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">Turbo Debate </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  
+1. The format will be British Parliamentary Debate. <br>
+2. The format will have 4 teams of 2 in each room. <br>
+3. Based on the Speedpeaking scores in the prelims, 4 teams  will advance to the finals. <br>
+4. The motion will be given on spot 15 minutes prior to the debate. <br>
+The decision of the organizers will be final and will not subject to any change.<br>
+<strong>Contact:</strong> Neil Joy Janfy:  7299789315
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+<div class="modal" id="Speed">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title"> Speed Duels</p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  1.This is an individual event. <br>
+  2.The player will be allowed 1 minute to set the controls for the race. <br>
+  
+
+  <strong> Round 1 </strong> : Prelims: The players are allowed to race in the track and car assigned by the organizers. Shortest time moves to the finals.
+  <br>
+  <strong> Round 2 </strong>  :  Finals:The top 20 players will be selected for the finals. Same rules apply.
+  <br>
+   The decision of the organizers will be final and will not subject to any change.<br>
+   <strong>Contact:</strong> Vimal Surya: 9962439264
+    
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+<div class="modal" id="Treasure">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">Treasure Hunt </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  
+  1.This is a team event. <br>
+  2.Each team can have a maximum of 3 participants. <br>
+  3.Usage of mobile phones and other gadgets are strictly prohibited. <br>
+  4.The Clue Sheet will be provided to all participants.  <br>
+  Winners will be selected based on the highest number of treasure and the shortest time needed to find them. <br>
+  <strong>Contact:</strong> Neil Joy Janfy:  7299789315
+  
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+<div class="modal" id="TEDxtreme">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">TEDxtreme </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  
+  1.Your event may consist of short, carefully prepared talks, future ideas to change lives and open-mic performances and on-stage comedy. <br>
+  2.Your event may not exceed 15 mins in length, unless otherwise noted for your event type.<br>
+  3.Participants are requested to be present inside the event hall before the commencement of the event. <br>
+  4.Participants are not allowed to promote their own products, books, or business. <br>
+  5.Presentation slides and pictures must be sent to turbo2020.auto @gmail.com prior to the day of the event.     <br>
+  TEDxtreme is totally a fun based event and there will be no judging on your performances. <br>
+  Winners will be announced through a holistic voting method. The decision of the organizers will be final and will not subject to any change. <br>
+  <strong>Contact:</strong> Daniel: 9500027530
+
+
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+<div class="modal" id="GullyCricket">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">Gully Cricket </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  
+  1.Only team entries are allowed.<br>
+  2.Each team should have 6 participants.<br>
+  3.The bowler should bowl from inside the box.<br>
+  4.Four overs tennis ball match.<br>
+  5.Catch, Six, Hit Wicket, Run Out, Stumping and Mankading will result in a loss of wicket. <br>
+  6.One over per bowler. <br>
+  7.Umpire decision final. <br>
+  <strong>Contact:</strong> Sriram: 8940038463
+
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+<div class="modal" id="Blood">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">Blood and Guts </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  
+ 1.This is an individual event. <br>
+ 2.The event contains multiple categories like Bench Press, Bicep Curls, Squat Press, Push Ups, Box Jump, Plank etc. <br>
+ 3.Always be mindful of your surroundings.<br>
+ 4.The winner will be decided based on the max/imum number of reps in the given restricted time limit. <br>
+ The decision of the organizers will be final and will not subject to any change.<br>
+ <strong>Contact:</strong> Kumaresh: 8925422436
+
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+      
+<div class="modal" id="Dirtrix">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">Dirtrix </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  
+  1.This event is an individual event.<br>
+  2.Entry Fee of Rs. 100/- will be collected. <br>
+  3.The participant will be provided with a dirt bike. <br>
+  4.The participant must be 18 years old or above to participate in this event. <br>
+  5.The participant must submit their driver’s license before the start of their ride. <br>
+  6.Helmet and other safety gear will be provided. <br>
+  7.The participant is expected to complete the obstacle course in the shortest time possible. <br>
+  8. <strong> Penalty </strong>  <br>
+  a)Foot on ground +2 seconds <br>
+  b)Cone down +3 seconds <br>
+  c)Line cut +5 seconds <br>
+  d)Engine off +10 seconds <br>
+  e)Rule Over +20 seconds  <br>
+  <strong>Contact:</strong> Yuvraj: 8110902756
+
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+<div class="modal" id="Lensography">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">Lensography </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  RULES:<br>
+  1. This is an individual event. <br>
+  2. The photos should be sent in JPEG format. <br>
+  3. The participant is expected to send a in unique title and description for their submitted photo. <br>
+  4. DSLR or mobile can be used by the participant. <br>
+  5. No plagiarism. <br>
+  6. Only basic editing is allowed. <br>
+ 
+  Mail the JPEG file to turbo2020.auto@gmail.com before January 04th 2020. <br>
+
+<strong> Round 1 </strong> - Online : This will be an online photography event. Vehicle Photography only. 
+The selection for finals will be based on likes and skill of photographer.  <br>
+
+<strong> Round 2 </strong> - Finals : The top 10 participants will be selected for the finals.
+The picture should be taken on campus from the Auto Expo. The photo should be submitted before 1PM on the day of the event.<br>
+
+The decision of the organizers will be final and will not subject to any change.<br>
+  <strong>Contact:</strong> Jassim: 7358834488
+
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+
+<div class="modal" id="engine">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">Turbocharger </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  Have you ever wondered “What is a turbocharger?” Or “Why it’s called as a turbo?” Or “How does it increase an internal combustion engine’s efficiency and power output ?” If Yes then all your answers can be found here.
+
+  Learn from the best! <br>
+  
+  Turbo 2020. Jan 06th 2020. 
+  Rajalakshmi Engineering College. <br>
+  <strong>Contact:</strong> Avinash +91 7358227794
+
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+
+<div class="modal" id="diag">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">On Board Diagonostics </p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  OBD is a computer-based system originally designed to reduce emissions by monitoring the performance 
+  of major engine components. Did you know that ? <br>
+  If not then learn more at our workshop on On-board diagnostics! <br>
+  Turbo 2020. Jan 06th 2020. 
+  Rajalakshmi Engineering College. <br>
+  <strong>Contact:</strong> Prahlathavaradhan +91 9445950409
+
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+
+<div class="modal" id="TD">
+  <div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+  <p class="modal-card-title">3D Printing</p>
+  <button class="delete modal-close" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  The future is now. Welcome to the future. The world is growing up and upgrading itself every second. Are you ? <br>
+  We present “3D Printing” to you in association with Caddam Technologies Pvt. Ltd. <br>
+  Learn from the best!<br>
+ Turbo 2020. Jan 06th 2020. 
+  Rajalakshmi Engineering College. <br>
+  <strong>Contact:</strong> Karthick Roshan +91 9566866497
+
+
+</section>
+<footer class="modal-card-foot">
+  <button class="button is-success" onclick="window.location.href='https://forms.gle/ptyLn37LWzqqTKBz9';">Register</button>
+</footer>
+</div>
+</div>
+
+
+
+
+<footer class="footer feet" id="about">
+    <center><p class="foot"> Venue: Rajalakshmi Engineering College, Rajalakshmi Nagar, Thandalam, Chennai 602 105</p>
+    <p class="foot"> Contact: Neil-- +91 7299789315 <br>
+                              Jassim-- +91 7358834488</p>
+    </center>  
+    </footer>  
+  
+  
+   <script src="JavaScript/script.js"></script>
+   <script> document.querySelectorAll('.model').forEach(function(el) {
+      el.addEventListener('click', function() {
+        var target = document.querySelector(el.getAttribute('data-target'));
+        
+        target.classList.add('is-active');
+        
+        target.querySelector('.modal-close').addEventListener('click',   function() {
+            target.classList.remove('is-active');
+         });
+      });
+    });
+  </script>
+</body>
+</html>

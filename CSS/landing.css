@@ -1,3 +1,149 @@
+.butt
+{
+ position : absolute;
+ top: 70%;
+ left: 5%;
+ background-color: transparent;
+ color: white;
+ font-weight: bold;
+ padding: 1.5%;
+ border-color: white;
+ border-width: thin;
+ margin:0%;
+ width: fit-content;
+}
+.butt a{
+    color: white;
+}
+@media screen and (max-width: 600px) 
+    {
+        .butt
+        {
+            left: 10%;
+            top: 60%;
+            width: fit-content;
+        }
+    }
+
+.evnt
+{
+    background-color: black;
+    color: white;
+
+}
+
+.feet
+{
+    background-color: black;
+}
+
+
+.foot
+{
+    font-weight: 700;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.521);
+    
+}
+@media screen and (max-width: 600px) 
+    {
+        .foot 
+        {
+            width: 70%;
+            
+        }
+    }
+
+
+.evnt h1
+{
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 2.5%;
+    scroll-padding-top: 2.5%;
+}
+
+
+.full-bg-img
+{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.contain
+{
+    position: relative;
+}
+.contain2
+{
+    position: relative;
+}
+.logo
+{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    width: 35%;
+}
+.text-block
+{
+    position: absolute;
+    top: 60%;
+    left: 72%;
+}
+
+.text-block1
+{
+    position: absolute;
+    top: 20%;
+    left: 72%;
+}
+.text-block h4
+{
+    color: white;
+    font-size: large;
+    width: fit-content;
+    font-weight: 700;
+}
+.text-block1 h4
+{
+    
+    color: white;
+    font-size: large;
+    width: fit-content;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 600px) 
+    {
+        .logo
+        {
+            left: 5%;
+            width: 90%;
+        }
+        .text-block
+        {
+            top: 45%;
+            left: 5%;
+            width: fit-content;
+        }
+        .text-block,.text-block1 h4
+        {
+            color: white;
+            font-size: medium;
+            font-weight: 700;
+            
+        }
+        .text-block1
+        {
+            top: 10%;
+            left: 20%;
+        }
+    }
+
+
+
 .nav
 {
     overflow: hidden;
@@ -58,90 +204,10 @@
         color: tomato;
     }
   }
-.img-box
-{
-    /* display: flex;  */
-    vertical-align: top;
-    position: relative;
-    height: 100%; 
-    width: 100%; 
-    /* background-image: url('../Images/landing.jpg'); */
-}
-.centre
-{
-    width: 100%;
-    max-height: 100vh;
-    margin: auto;
-
-}
-
-.tile2
-{
-    position: absolute;
-    top: 5%;
-    left: 2.5%;
-    color: white;
-    margin: 0%;
-    padding: 0%;
-    font-size: 1.5vw;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-
-}
-.tile2 h1{
-    
-    width: 50%;
-}
-
-.tile2 strong
-{
-   font-size: 5vh;
-   word-spacing: 1rem;
-}
-
-.tile2 h3
-{
-    font-size: 10vh;
-}
-.tile2 h4
-{
-    width: 40%;
-}
-.tile2 p
-{
-  
-    width: 40%;
-}
-
-.tile2 .vertical
-{
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: underline;
-}
-.tile2 .format h1{
-    width: 40%;
-    font-size: 10vh;
-}
-.format
-{
-    display: flex;
-    flex-direction: row;
-}
-
-.tile2 .num
-{
-    width: 100%;
-    
-}
 .btn
 {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 70%;
     background-color: transparent;
     color: white;
@@ -149,37 +215,32 @@
     padding: 1.5%;
     border-color: white;
     border-width: thin;
-    margin: 0%;
+    margin:0%;
     width: 23%;
 }
+.btn a 
+{
+    color:white;
+}
+
+
+@media screen and (max-width: 600px) {
+   .btn
+   {
+       top: 60%;
+       left: 30%;
+       width: fit-content;
+   }   
+  
+   };
+
 .btn:hover
 {
     background-color: white;
     color: black;
-}
-.posi
-{
-    height: 25%;
-    width: 20%;
-    position: absolute;
-    top: 10%;
-    left: 70%;
-         
+
 }
 
-.text-container
-{
-    position: absolute;
-    top: 30%;
-    left: 70%;
-    color: white;
-    margin: 0%;
-    padding: 0%;
-    font-size: 2.5vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
   *
 {
     box-sizing: border-box;
@@ -189,50 +250,48 @@
     vertical-align: top;
     position: relative;
 }
-
-
-@media screen and (max-width: 600px) {
-    .tile2 .format h1
-    {
-        width: 10%;
-        font-size: 2vh;
-    }
-}
-@media screen and (max-width: 600px) {
-    .tile2 .num strong
-    {
-        width: 10%;
-        font-size: 2vh;
-    }
-    }
-.event
+.text-container
 {
-    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 1.5%;
+    font-size: x-large;
 }
-.event h1
+
+.text-container h1,p,h4 
 {
+   
     color: white;
-    font-size: 10vh;
-    padding-left: 1.5%;
-}
-.posters
-{
-    padding-left: 1.5%;
-    padding-right: 1.5%;
+    width: 40%;
 }
 
-.foot
-{
-    background-color: black;
-    width: 100vw;
+@media screen and (max-width: 600px) {
+    .text-container
+    {
+        font-size: medium;
+        top: 5%;
+    }
+    .text-container h1
+    {
+        width: 100%;
+    }
+    .text-container p,h4
+    {
+        padding-top: 10%;
+        word-spacing: 1.5%;
+        width:100%;
+    };
 }
-.carou
+
+
+
+.events
 {
-    padding-top: 2.5%;
+    margin-top: 0%;
 }
-/* body */
-{
-    /* background-color: black; */
+
+
+
 }
 /* Grid division*/
 .col-1 {
@@ -288,6 +347,11 @@ body
     max-height: 100%;
     max-width: 100%;
 } */
+
+html
+{
+    scroll-behavior: smooth;
+}
 @media screen and (max-width: 600px) {
     .event h1
     {
@@ -295,3 +359,41 @@ body
         font-size: 4vh;
     }
     }
+
+
+
+
+
+    ​/* Float four columns side by side */
+.column15 {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+  }
+  
+  .row15 {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row15:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column15 {
+      width: 100%;
+      display: block;
+
+    }
+  }
+  
+  /* Style the counter cards */
+  .card0 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+  }
